@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans bg-neutral-200">
+    <!-- Menubar -->
+    <nav class="bg-black text-white p-4 fixed top-0 w-full z-50">
+      <div class="container mx-auto flex justify-between items-center">
+        <div class="flex items-center">
+          <span class="font-semibold text-xl">Website</span>
+        </div>
+        <div class="relative">
+          <button
+            onclick="toggleDropdown()"
+            class="px-4 py-2 hover:bg-gray-700 rounded transition duration-300"
+          >
+            Menu
+          </button>
+          <div
+            id="dropdownMenu"
+            class="absolute right-0 mt-2 py-2 bg-white rounded shadow-xl w-48 hidden"
+          >
+            <a
+              href="#home"
+              class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+              >About</a
+            >
+            <a
+              href="#certificate"
+              class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+              >Certificate</a
+            >
+            <a
+              href="#portfolio"
+              class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+              >Portfolio</a
+            >
+            <a
+              href="#suggest"
+              class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+              >Suggest</a
+            >
+            <a
+              href="contact.html"
+              class="block px-4 py-2 text-gray-800 hover:bg-gray-100"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content Placeholder -->
+    <section id="home" class="py-12 px-4 bg-neutral-200">
+        <div class="text-center">
+          <div class="flex justify-center">
+            <img
+              src="assets/img/pp2.jpeg"
+              class="object-center w-48 h-48 rounded-full m-8"
+              alt="Profile picture"
+            />
+          </div>
+          <h1 style="color: black; font-family: cursive">Jesselyn Hosea</h1>
+          <p class="fs-6 text-black">
+            Hi, welcome. You can click the button below to download my CV.
+          </p>
+          <button
+            type="button"
+            class="btn btn-lg mb-3 border-2 border-black rounded-md px-4 py-2" 
+          >
+            <a              
+              class="text-black"
+              href="cv.pdf"
+              >Download CV</a
+            >
+          </button>
+        </div>
+      </section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#737373" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,
+        480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,
+        1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,
+        320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    <section id="about" class="text-white bg-neutral-500">
+      <div class="container px-4 lg:px-20 py-8">
+        <h1 class="text-center text-black font-bold text-3xl md:text-4xl mb-8">
+          <b>About</b>
+        </h1>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="text-neutral-200 text-justify">
+            My name is Jesselyn Hosea. I was born on January 11th 2005 in a city
+            called Makassar. I am the oldest child out of 4 children. I live in
+            Central Jakarta. My hobbies are listening to music, watching TV
+            shows, and reading. I speak fluently in Bahasa and English, also I
+            can speak a little bit of Mandarin and Korean. I used to live in a
+            city called Palopo, but after attending high school, I moved to
+            Jakarta. I went to a high school called UPH College and now I am
+            attending a university called UPH. I am in my second year of
+            university and currently majoring in Information Systems. My campus
+            is 30 minutes away from my house, but I don't mind it because i like
+            travelling by car.
+          </div>
+          <div class="text-neutral-200 text-justify">
+            This website is an assignment for Basic Web Technology class. In
+            this class I learn how to make a website from scratch and I think
+            it's eye-opening in the way that I can now inspect every website
+            that I came across. If I wanna know more about a website's detail,
+            then I can just click Ctrl+U to see the details. It's very helpful
+            once i get the hang of it. I actually like this class because it's
+            less confusing than Data Structure class. That class was very
+            confusing and I had a headache from learning Java. My favorite part
+            about learning to develop a website is HTML; as for CSS, Bootstrap,
+            and Javascript, I still find them challenging. So, from now on I
+            will practice a lot so I can hone my skills and become a better
+            website developer.
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#737373" fill-opacity="1" d="M0,128L48,122.7C96,117,192,107,288,133.3C384,160,
+      480,224,576,250.7C672,277,768,267,864,229.3C960,192,1056,128,1152,85.3C1248,43,1344,21,1392,
+      10.7L1440,0L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,
+      384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <section id="certificates" class="py-12 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-center text-black font-bold text-3xl md:text-4xl mb-8">Certificate</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="shadow-lg p-4 bg-white">
+            <img
+              src="assets/img/certificate1.jpeg"
+              alt="Certificate 1"
+              class="mb-3"
+            />
+            <p class="text-center">Company Visit 2023</p>
+          </div>
+          <div class="shadow-lg p-4 bg-white">
+            <img
+              src="assets/img/certificate2.jpeg"
+              alt="Certificate 2"
+              class="mb-3"
+            />
+            <p class="text-center">DED 2023</p>
+          </div>
+          <div class="shadow-lg p-4 bg-white">
+            <img
+              src="assets/img/certificate3.jpeg"
+              alt="Certificate 3"
+              class="mb-3"
+            />
+            <p class="text-center">ASII Webinar 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#262626" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,85.3C384,107,480,
+      181,576,197.3C672,213,768,171,864,170.7C960,171,1056,213,1152,202.7C1248,192,1344,128,1392,
+      96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,
+      320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    <section id="portfolio" class="py-12 px-4 bg-neutral-800">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-center text-white font-bold text-3xl md:text-4xl mb-8">Portfolio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="shadow-lg p-4 bg-white">
+            <img
+              src="assets/img/portfolio1.jpeg"
+              alt="Portfolio 1"
+              class="mb-3"
+            />
+            <p class="text-center">Flight Website SkyTour</p>
+          </div>
+          <div class="shadow-lg p-4 bg-white">
+            <img
+              src="assets/img/portfolio2.png"
+              alt="Portfolio 2"
+              class="mb-3"
+            />
+            <p class="text-center">Data Analysis Competition</p>
+          </div>
+          <div class="shadow-lg p-4 bg-white">
+            <img
+              src="assets/img/portfolio3.png"
+              alt="Portfolio 3"
+              class="mb-3"
+            />
+            <p class="text-center">Marketing Plan Competition</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#262626" fill-opacity="1" d="M0,96L48,133.3C96,171,192,245,288,234.7C384,224,480,
+      128,576,101.3C672,75,768,117,864,128C960,139,1056,117,1152,101.3C1248,85,1344,75,1392,69.3L1440,
+      64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+    <section id="suggest" class="py-12 px-4">
+        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div class="max-w-xl mx-auto">
+                <div class="text-center">
+                <h1
+                    class="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white"
+                >
+                    Suggest
+                </h1>
+                <p class="mt-1 text-gray-600 dark:text-gray-400">
+                    I'd love to hear about anything I can improve on my website.
+                </p>
+                </div>
+            </div>
+    
+            <div class="mt-12 max-w-lg mx-auto">
+              <!-- Card -->
+              <div class="flex flex-col border border-black rounded-xl p-4 sm:p-6 lg:p-8 dark:border-gray-700">
+                  <h2 class="mb-8 text-xl font-semibold text-gray-800 dark:text-gray-200">Fill in the form</h2>
+                  <form>
+                    <div class="grid gap-4 lg:gap-6">
+                      <!-- Grid -->
+                      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                        <div>
+                          <label 
+                          for="hs-firstname-contacts-1" 
+                          class="block mb-2 text-sm text-gray-700 font-medium dark:text-white">First Name</label>
+                          <input 
+                          type="text" 
+                          name="hs-firstname-contacts-1" 
+                          id="hs-firstname-contacts-1" 
+                          class="py-3 px-4 block w-full rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:text-gray-400 dark:focus:ring-gray-600" />
+                        </div>
+                      <div>
+                        <label 
+                        for="hs-lastname-contacts-1" 
+                        class="block mb-2 text-sm text-gray-700 font-medium dark:text-white">Last Name</label>
+                        <input 
+                        type="text" 
+                        name="hs-lastname-contacts-1" 
+                        id="hs-lastname-contacts-1" 
+                        class="py-3 px-4 block w-full rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:text-gray-400 dark:focus:ring-gray-600" />
+                      </div>
+                    </div>
+                    <!-- End Grid -->
+          
+                    <!-- Grid -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                      <div>
+                        <label 
+                        for="hs-email-contacts-1" 
+                        class="block mb-2 text-sm text-gray-700 font-medium dark:text-white">Email</label>
+                        <input 
+                        type="email" 
+                        name="hs-email-contacts-1" 
+                        id="hs-email-contacts-1" 
+                        autocomplete="email" 
+                        class="py-3 px-4 block w-full rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:text-gray-400 dark:focus:ring-gray-600" />
+                      </div>
+                      <div>
+                        <label 
+                        for="hs-phone-number-1" 
+                        class="block mb-2 text-sm text-gray-700 font-medium dark:text-white">Phone Number</label>
+                        <input 
+                        type="text" 
+                        name="hs-phone-number-1" 
+                        id="hs-phone-number-1" 
+                        class="py-3 px-4 block w-full rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:text-gray-400 dark:focus:ring-gray-600" />
+                      </div>
+                    </div>
+                    <!-- End Grid -->
+          
+                      <div>
+                        <label for="hs-about-contacts-1" class="block mb-2 text-sm text-gray-700 font-medium dark:text-white">Message</label>
+                        <textarea id="hs-about-contacts-1" name="hs-about-contacts-1" rows="4" class="py-3 px-4 block w-full rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:text-gray-400 dark:focus:ring-gray-600"></textarea>
+                      </div>
+                    </div>
+                    <!-- End Grid -->
+          
+                    <div class="mt-6 grid">
+                      <button type="submit" class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-black text-white hover:bg-neutral-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Send inquiry</button>
+                    </div>
+          
+                    <div class="mt-3 text-center">
+                      <p class="text-sm text-gray-500">Thank you for the input!</p>
+                    </div>
+                  </form>
+            </div>
+            <!-- End Card -->
+          </div>
+          
+            <div
+                class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-4 lg:gap-8"
+            >
+    <section>
+
+    <script>
+      function toggleDropdown() {
+        document.getElementById("dropdownMenu").classList.toggle("hidden");
+      }
+    </script>
+  </body>
+</html>
